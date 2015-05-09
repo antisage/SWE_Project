@@ -1,0 +1,108 @@
+body
+{
+	background:#FFFF4B;
+}
+.container
+{
+	width:1300px;
+	height:auto;
+	margin:auto;
+}
+
+.buttonsDiv button,input[type=submit]
+{
+	background-color:#F0B685;
+	font-size:14px;
+	font-family:sans-serif;
+	border:1px solid black;
+	height:24px;
+	box-shadow: 3px 3px 2px #888888;
+	margin-top:20px;
+	transition: all ease-in 0.45s;
+	-moz-transition: all ease-in 0.45s;
+	-webkit-transition: all ease-in 0.45s;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	font-weight:bold;
+}
+
+.buttonsDiv #Button1
+{
+	width:170px;
+	margin-left: 50px;
+}
+
+.buttonsDiv #Button2
+{
+	width:170px;
+	margin-left: 45px;
+}
+
+.buttonsDiv #Button3
+{
+	width:100px;
+	float:right;
+	margin-right:50px;
+}
+
+.buttonsDiv #Button4
+{
+	width:170px;
+	float:right;
+	margin-right:-305px;
+}
+
+.buttonsDiv button:hover
+{
+	background-color:black;
+	color: #F0B685;
+	cursor:hand;
+}
+
+.buttonsDiv input[type=submit]:hover
+{
+	background-color:black;
+	color: #F0B685;
+	cursor:hand;
+}
+
+.heading h1
+{
+	font-size: 68px;
+	text-align:center;
+	font-family:sans-serif;
+	font-weight: normal;
+}
+
+.CartForm
+{
+	width:600px; 
+	margin:0 auto;
+}
+
+div.fieldgroup
+{
+	text-align:left;
+}
+
+.fieldgroup input
+{
+	margin-left:5px;
+	width:240px;
+}
+
+.inputField
+{
+	line-height: 1.0;
+    text-align: right;
+    color: #333333;
+    padding: 10px 0px 3px 25px;
+    right:100px;
+    font-family: Arial,sans-serif;
+    font-size: 100%;
+    color: #333;
+    font-weight: bold;
+    height:20px;
+    width: 200px;
+}

@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>
+			Shopping Cart
+		</title>
+		<link type="text/css" rel="stylesheet" href="css/style3.css" />
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="buttonsDiv">
+				<button id="Button1" onClick="window.location.href='user_home.php'"/><strong>Shopping Page</strong></button>
+				<button id="Button3" onClick="window.location.href='index.php'"><strong>Log Out</strong></button>
+			</div>
+			
+			<div class="heading">
+				<h1>
+					Shopping Cart
+				</h1>
+			</div>
+			
+			<div class="CartForm">
+				<form type="submit" method="POST" action="#">
+					<table>
+							<tr>
+							  <td  class="inputField" >First Name:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="firstName" value="" id="firstName" maxlength="20" placeholder="Enter First Name">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Last Name:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="lastName" value="" id="lastName" maxlength="40" placeholder="Enter Last Name">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Shipping Address Line 1:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="ShippingAddressLine1" id="ShippingAddressLine1" maxlength="128" placeholder="Enter Shipping Address 1">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Shipping Address Line 2:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="ShippingAddressLine2" id="ShippingAddressLine2" maxlength="128" placeholder="Enter Shipping Address 2">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Card Number:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="CardNumber" id="CardNumber" maxlength="20" placeholder="Enter Card Number">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Billing Address:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="BillingAddress" id="BillingAdress" maxlength="128" placeholder="Enter Billing Address">
+								</div>
+							  </td>
+							</tr>
+							<tr>
+							  <td  class="inputField" >Name on Card:</td>
+							  <td class="input">
+								<div class="fieldgroup">
+								  <input type="text" name="NameCard" id="NameCard" maxlength="128" placeholder="Enter Name on Card">
+								</div>
+							  </td>
+							</tr>
+					</table>
+					<br/><br/><br/><br/>
+				</form>  
+			</div>
+		</div>
+        <center><form action="submit_order.php">
+    <input type="submit" value="Confirm Order">
+</form></center>
+	</body>
+</html>
